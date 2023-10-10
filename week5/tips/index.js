@@ -31,6 +31,3 @@ for (let i = 0; i < words.length; i++) {
   output += words[i] + generateTabsForWord(words[i], 32) + 'Next text after tabs' + '\n';
 }
 console.log(output);
-
-const h = 24* Math.tan(2 * Math.PI * 45 / 360);
-console.log(h);
